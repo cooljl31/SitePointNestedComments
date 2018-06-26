@@ -21,7 +21,7 @@ gem 'bootstrap-sass'
 gem "recaptcha", github: 'ambethia/recaptcha', require: "recaptcha/rails"
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 4.0.2'
+gem 'sass-rails', '>= 5.0.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
