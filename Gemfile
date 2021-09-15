@@ -6,7 +6,7 @@ gem 'rails', '4.1.9'
 group :development do
   gem 'sqlite3'
   gem 'annotate'
-  gem 'better_errors'
+  gem 'better_errors', '>= 2.8.0'
   gem "binding_of_caller"
 end
 
