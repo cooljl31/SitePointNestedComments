@@ -16,7 +16,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'closure_tree'
+gem 'closure_tree', '>= 8.0.0'
 gem 'bootstrap-sass'
 gem "recaptcha", github: 'ambethia/recaptcha', require: "recaptcha/rails"
 
