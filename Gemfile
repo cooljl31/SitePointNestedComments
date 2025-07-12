@@ -1,23 +1,23 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.9'
+gem 'rails', '7.1.0'
 
 group :development do
   gem 'sqlite3'
-  gem 'annotate'
-  gem 'better_errors'
+  gem 'annotate', '>= 2.7.2'
+  gem 'better_errors', '>= 2.2.0'
   gem "binding_of_caller"
 end
 
 group :production do
   gem 'pg'
-  gem 'thin'
+  gem 'thin', '>= 2.0.0'
   gem 'rails_12factor'
 end
 
-gem 'closure_tree'
-gem 'bootstrap-sass'
+gem 'closure_tree', '>= 6.0.0'
+gem 'bootstrap-sass', '>= 3.3.4.1'
 gem "recaptcha", github: 'ambethia/recaptcha', require: "recaptcha/rails"
 
 # Use SCSS for stylesheets
@@ -27,13 +27,13 @@ gem 'sass-rails', '>= 4.0.2'
 gem 'uglifier', '>= 1.3.0'
 
 # Use CoffeeScript for .js.coffee assets and views
-gem 'coffee-rails', '>= 4.0.0'
+gem 'coffee-rails', '>= 4.2.2'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
 # Use jquery as the JavaScript library
-gem 'jquery-rails'
+gem 'jquery-rails', '>= 4.0.1'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -41,7 +41,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 #gem 'jbuilder', '~> 1.2'
 
-gem 'tzinfo-data', platforms: [:mingw, :mswin]
+gem 'tzinfo-data', '>= 1.2015.2', platforms: [:mingw, :mswin]
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
