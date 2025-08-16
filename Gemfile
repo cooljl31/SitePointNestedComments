@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.1.9'
+gem 'rails', '7.1.5.2'
 
 group :development do
   gem 'sqlite3'
-  gem 'annotate'
+  gem 'annotate', '>= 2.6.6'
   gem 'better_errors'
   gem "binding_of_caller"
 end
@@ -16,7 +16,7 @@ group :production do
   gem 'rails_12factor'
 end
 
-gem 'closure_tree'
+gem 'closure_tree', '>= 6.0.0'
 gem 'bootstrap-sass'
 gem "recaptcha", github: 'ambethia/recaptcha', require: "recaptcha/rails"
 
